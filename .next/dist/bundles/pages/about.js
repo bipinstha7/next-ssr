@@ -72,6 +72,30 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/Image.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/components/Image.js";
+
+
+var Image = function Image() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    src: "https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg",
+    alt: "dog",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Image);
+
+/***/ }),
+
 /***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81,7 +105,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Image__ = __webpack_require__("./components/Image.js");
 var _jsxFileName = "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/pages/about.js";
+
 
 
 
@@ -93,28 +119,33 @@ var About = function About() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     }
   }, "About"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     }
-  }, "back")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+  }, "back")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Image__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     }
   }, "I was a magician once"));
 };
