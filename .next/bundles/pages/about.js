@@ -1,8 +1,8 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/', function() {
+        __NEXT_REGISTER_PAGE('/about', function() {
           var comp = 
-      webpackJsonp([4],{
+      webpackJsonp([5],{
 
 /***/ "./node_modules/@babel/runtime/core-js/json/stringify.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -922,7 +922,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -931,7 +931,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("./node_modules/next/link.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/pages/index.js";
+var _jsxFileName = "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/pages/about.js";
 
 
 (function () {
@@ -942,32 +942,41 @@ var _jsxFileName = "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Master
 
 
 
-var Index = function Index() {
+var About = function About() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    style: {
+      fontSize: '20px',
+      color: 'skyblue'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     }
-  }, "SSR Magic"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/about",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, "About"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }, "About")));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    }
+  }, "back")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, "I was a magician once"));
 };
 
-var _default = Index;
+var _default = About;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
 
@@ -980,8 +989,8 @@ var _default = Index;
     return;
   }
 
-  reactHotLoader.register(Index, "Index", "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/pages/index.js");
-  reactHotLoader.register(_default, "default", "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/pages/index.js");
+  reactHotLoader.register(About, "About", "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/pages/about.js");
+  reactHotLoader.register(_default, "default", "/media/madrio/media/C Drive/Desktop/Code/Node/Zero To Mastery/next-ssr/pages/about.js");
   leaveModule(module);
 })();
 
@@ -1002,22 +1011,22 @@ var _default = Index;
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/about")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/about.js");
 
 
 /***/ })
 
-},[3])
+},[4])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map
